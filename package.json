@@ -1,5 +1,5 @@
 {
-  "name": "ui-notes",
+  "name": "react-notes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,6 @@
     "bootstrap": "^4.5.0",
     "browsersync": "^0.0.1-security",
     "css-loader": "^4.0.0",
-    "eslint": "6.8.0",
     "isomorphic-style-loader": "^5.1.0",
     "node-sass": "^4.14.1",
     "postcss": "^7.0.32",
@@ -20,6 +19,7 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-url": "^8.0.0",
     "react": "^16.13.1",
+    "react-calendar": "^3.1.0",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
@@ -35,9 +35,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import {BrowserRouter as Router} from 'react-router-dom'
+import {Provider as ReduxProvider} from 'react-redux';
 import {ContextProvider} from './AppContext';
 import store from './store/index';
 // Put any other imports below so that CSS from your
@@ -12,11 +13,13 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ReduxProvider store={store}>
     <ContextProvider value={{store}}>
     <Router>
       <App/>
     </Router>
     </ContextProvider>
+    </ReduxProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

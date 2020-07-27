@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import storeAdd from './reducer1';
+import notesStore from './notesDetails';
 
 export default combineReducers({
-  storeAdd,
+  notesStore,
 });
