@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Demo Live](https://ui-react-notes.herokuapp.com/)
+[Demo Live](https://shubh-react-notes.netlify.app)
 
 
 ## Available Scripts
